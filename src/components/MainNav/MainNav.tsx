@@ -18,6 +18,8 @@ export const MainNav = ({ items }: MainNavProps) => {
   return (
     <>
       <S.Nav>
+        <S.Title>Menu de navegação</S.Title>
+
         <S.List>
           {items.map((item) => (
             <S.NavItem key={item.title}>

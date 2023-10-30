@@ -5,7 +5,7 @@ export const site: Site = {
   title: 'Senior Frontend Engineer e criador de conteúdo.',
   subtitle:
     'Desenvolvedor Frontend, mentor e palestrante. Apaixonado por tecnologia e por compartilhar conhecimento.',
-  url: 'https://andrewrosario.vercel.app',
+  url: 'https://andrewrosario.com.br',
   links: {
     blog: 'https://andrewrosario.medium.com',
     twitter: 'https://www.twitter.com/andrewarosario/',

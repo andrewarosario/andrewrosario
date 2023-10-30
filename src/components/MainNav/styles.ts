@@ -11,6 +11,10 @@ export const Nav = tw.nav`
     md:flex
 `;
 
+export const Title = tw.h2`
+    hidden
+`;
+
 export const NavItem = tw.li`
     inline-block
     transition-all

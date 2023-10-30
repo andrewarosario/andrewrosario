@@ -9,6 +9,14 @@ const mockItems: NavItem[] = [
 ];
 
 describe('MainNav', () => {
+  it('should render title', () => {
+    render(<MainNav items={mockItems} />);
+
+    const title = screen.getByRole('heading', { name: /menu de navegação/i });
+
+    expect(title).toBeInTheDocument();
+  });
+
   it('should render list items', () => {
     render(<MainNav items={mockItems} />);
 
